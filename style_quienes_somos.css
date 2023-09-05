@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container{
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Header*/
+.header{
+    
+    background-color: rgb(227, 195, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    
+}
+.navbar{
+    background-color: rgb(183, 178, 178);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar a{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(183, 178, 178);
+    color: rgb(19, 10, 149);
+    padding: 10px 5px;
+    border: 1px solid  rgb(183, 178, 178);
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0;
+}
+.navbar a:hover{
+    background-color: rgb(245, 128, 151);
+}
+
+.logo{
+    
+    margin-top: 20px;
+    padding: 10px 5px;
+    font-size: 1.5em;
+    font-weight:500;
+    color:  rgb(86, 86, 221);
+    font-style: inherit;  
+    text-align: start;
+}
+
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(245, 245, 245);
+    
+}
+.main .container{
+    padding-top: 25em;
+    border: 0.5em solid rgb(215, 179, 179);
+    border-radius: 20px;
+    background: url(./img/empresa.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+  
+.main h1{
+    font-size: 2em;
+    font-weight: 600;
+    font-style: oblique;
+    color: white;
+}
+h2{
+    font-size: 2em;
+    font-weight: 600;
+    font-style: oblique;
+    color: white;
+}
+p {
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+}
+
+/*Footer*//*Footer*/
+.footer{
+    box-sizing: border-box;
+    background-color: rgb(223, 108, 108);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+    font-weight: 500;
+    
+}
+.button{
+    min-width: 20em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+.button a{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.button a:hover{
+    transform: scale(1.2);
+}
+.list-links a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 5px 20px;
+    border: 2px solid rgb(214, 73, 73);
+    border-radius: 10px;
+    background-color: rgb(214, 73, 73);
+}
+
+/*boton volver*/
+.btn .volver{
+    display: inline-block;
+    color: black;
+    background-color: rgb(196, 196, 233);
+    border: 1px solid rgb(39, 39, 212);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
